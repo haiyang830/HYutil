@@ -2,6 +2,7 @@ package.path = "L:\\HYutil\\?.lua;".."I:\\HYutil\\?.lua;"..package.path
 ---------------------------------------------
 -- DEBUG ------------------------------------
 ---------------------------------------------
+--[[
 function PrintTable(tbl, level, filteDefault)
   local msg = ""
   filteDefault = filteDefault or true --默认过滤关键字（DeleteMe, _class_type）
@@ -31,23 +32,20 @@ function PrintTable(tbl, level, filteDefault)
   end
   print(indent_str .. "}")
 end
-
-
-
---local HYutil = require("HYutil.HY")
-
---local Point = require("HYutil.Point")
---local Line = require("HYutil.Line")
---local Bezier = require("HYutil.Bezier")
+]]
+local HYutil = require("HYutil.HY")
+local Point = require("HYutil.Point")
+local Line = require("HYutil.Line")
+local Bezier = require("HYutil.Bezier")
 local Path = require("HYutil.Path")
 local Shape = require("HYutil.Shape")
---local VC = require("HYutil.VC")
---local Time = require("HYutil.Time")
---local Motion = require("HYutil.Motion")
+local VC = require("HYutil.VC")
+local Time = require("HYutil.Time")
+local Motion = require("HYutil.Motion")
 local MotionMulti = require("HYutil.MotionMulti")
---local NL = require("HYutil.NL")
---local Colour = require("HYutil.Colour")
---local FX = require("HYutil.FX")
+local NL = require("HYutil.NL")
+local Colour = require("HYutil.Colour")
+local FX = require("HYutil.FX")
 
 --[[
 motion_conf = {
@@ -109,13 +107,13 @@ print(pth:pointAtStep(0.2))
 --PrintTable(pth)
 ]]
 
-
+--[[
 shp = {"m 100 0 l 200 0"}
 shp = Shape:new(shp)
 --print(shp:pointAtStep(0.05))
 --PrintTable(shp)
 print(shp:pointAtStepModeLoop(2))
-
+]]
 --[[
 test = FX:new()
 --test:addMotionLine({0,0,100,100},{0,0,1,1})
@@ -141,7 +139,7 @@ C = Colour:new(C)
 
 print(C:toStr("ass"))
 ]]
---[[
+
 return {
 	Point = Point,
 	Line = Line,
@@ -156,4 +154,3 @@ return {
 	Colour =Colour,
 	FX = FX
 }
-]]
