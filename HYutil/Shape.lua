@@ -1,9 +1,10 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local Path = require("Path")
+local HYutil = require("HYutil.HY")
+local Path = require("HYutil.Path")
 ---------------------------------------------
 -- SHAPE ------------------------------------
 ---------------------------------------------
+--v1.0
+
 local Shape = {
 	tag={createShape=false, toTable=false, closed=false, pathNew=false, lengthAll=false, stepAll=false}
 }

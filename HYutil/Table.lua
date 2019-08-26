@@ -1,6 +1,8 @@
 ---------------------------------------------
 -- TABLE ------------------------------------
 ---------------------------------------------
+--v1.0
+
 local table = table
 --兼容5.1
 table.unpack = table.unpack or unpack
@@ -13,16 +15,15 @@ function table:sort2(mode, offset, assign) --> table obj/new_obj
 	offset = math.abs(offset) or 1
 
 	local function shuffleNum(num) --打乱数字
-		local S_to_L = {}
-		for i = 1,num do
-			S_to_L[i] = i
+		local num_arr = {}
+		for i = 1, num do
+			num_arr[i] = i
 		end
-		local num_arr = S_to_L
-		for  i = #num_arr,1,-1 do
-			local index = math.random(1,#num_arr)
-			local temp_num = num_arr[i]
+		for i = #num_arr, 1, -1 do
+			local index = math.random(1, #num_arr)
+			local num_tmp = num_arr[i]
 			num_arr[i] = num_arr[index]
-			num_arr[index] = temp_num
+			num_arr[index] = num_tmp
 		end
 		return num_arr
 	end

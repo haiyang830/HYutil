@@ -1,9 +1,10 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local VC = require("VC")
+local HYutil = require("HYutil.HY")
+local VC = require("HYutil.VC")
 ---------------------------------------------
 -- NONLINEAR --------------------------------
 ---------------------------------------------
+--v1.0
+
 local NL = {
 	tag={collectConf=false, createVelocityCurve=false, createNLValues=false},
 }

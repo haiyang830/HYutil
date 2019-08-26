@@ -1,9 +1,9 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local math = require("Math")
+local HYutil = require("HYutil.HY")
+local math = require("HYutil.Math")
 ---------------------------------------------
 -- Colour -----------------------------------
 ---------------------------------------------
+--v1.0
 local Colour = {HSV={}, HSL={}, RGB={}}
 Colour = HYutil:new(Colour)
 

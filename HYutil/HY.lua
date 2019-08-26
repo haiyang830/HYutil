@@ -1,9 +1,10 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local table = require("Table")
-local math = require("Math")
+local table = require("HYutil.Table")
+local math = require("HYutil.Math")
 ---------------------------------------------
 -- HYutil -----------------------------------
 ---------------------------------------------
+--v1.0
+
 local HYutil = {}
 
 function HYutil:new(o) --> table obj

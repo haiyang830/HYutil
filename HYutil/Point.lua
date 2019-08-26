@@ -1,8 +1,9 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
+local HYutil = require("HYutil.HY")
 ---------------------------------------------
 -- POINT ------------------------------------
 ---------------------------------------------
+--v1.0
+
 local Point = {}
 
 Point = HYutil:new(Point)

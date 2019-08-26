@@ -1,9 +1,10 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local Point = require("Point")
+local HYutil = require("HYutil.HY")
+local Point = require("HYutil.Point")
 ---------------------------------------------
 -- BEZIER -----------------------------------
 ---------------------------------------------
+--v1.0
+
 local Bezier = {}
 
 Bezier = HYutil:new(Bezier)

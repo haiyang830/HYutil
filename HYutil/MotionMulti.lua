@@ -1,9 +1,10 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local Motion = require("Motion")
+local HYutil = require("HYutil.HY")
+local Motion = require("HYutil.Motion")
 ---------------------------------------------
 -- MOTION MULTI -----------------------------
 ---------------------------------------------
+--v1.0
+
 --[[
 创建MotionMulti对象
 

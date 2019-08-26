@@ -1,10 +1,11 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local Shape = require("Shape")
-local VC = require("VC")
+local HYutil = require("HYutil.HY")
+local Shape = require("HYutil.Shape")
+local VC = require("HYutil.VC")
 ---------------------------------------------
 -- MOTION -----------------------------------
 ---------------------------------------------
+--v1.0
+
 local Motion = {
 	tag={collectConf=false, createShape=false, createVelocityCurve=false, createPoint=false},
 }

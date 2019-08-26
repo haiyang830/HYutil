@@ -1,13 +1,14 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local math = require("Math")
-local Time = require("Time")
-local MotionMulti = require("MotionMulti")
-local NL = require("NL")
-local Colour = require("Colour")
+local HYutil = require("HYutil.HY")
+local math = require("HYutil.Math")
+local Time = require("HYutil.Time")
+local MotionMulti = require("HYutil.MotionMulti")
+local NL = require("HYutil.NL")
+local Colour = require("HYutil.Colour")
 ---------------------------------------------
 -- FX ---------------------------------------
 ---------------------------------------------
+--v1.0
+
 --[[
 --配置阶段
 fx = {

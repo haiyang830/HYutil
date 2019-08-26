@@ -1,10 +1,11 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local Bezier = require("Bezier")
-local Path = require("Path")
+local HYutil = require("HYutil.HY")
+local Bezier = require("HYutil.Bezier")
+local Path = require("HYutil.Path")
 ---------------------------------------------
 -- VELOCITY CURVE ---------------------------
 ---------------------------------------------
+--v1.0
+
 local VC = {
 	tag={collectConf=false, createVC=false}
 }

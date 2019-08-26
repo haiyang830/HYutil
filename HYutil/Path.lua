@@ -1,11 +1,12 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
-local Point = require("Point")
-local Line = require("Line")
-local Bezier = require("Bezier")
+local HYutil = require("HYutil.HY")
+local Point = require("HYutil.Point")
+local Line = require("HYutil.Line")
+local Bezier = require("HYutil.Bezier")
 ---------------------------------------------
 -- PATH -------------------------------------
 ---------------------------------------------
+--v1.0
+
 local Path = {
 	tag={pNew=false, lengthAll=false, stepAll=false}
 }

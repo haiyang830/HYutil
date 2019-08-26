@@ -1,8 +1,9 @@
-package.path = "L:\\HYutil\\HYutil\\?.lua;".."I:\\HYutil\\HYutil\\?.lua;"..package.path
-local HYutil = require("HY")
+local HYutil = require("HYutil.HY")
 ---------------------------------------------
 -- TIME -------------------------------------
 ---------------------------------------------
+--v1.0
+
 local Time = {
 	tag={collectConf=false, createFrames=false}
 }
